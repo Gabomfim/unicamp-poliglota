@@ -50,7 +50,6 @@ body{
 }
 
 .card:first-of-type{ /*aqui é tudo invertido, pq o first vira last por conta do dir trocado do pai flex-container*/
-  background-color: red;
   margin-right:120px;
 }
 
