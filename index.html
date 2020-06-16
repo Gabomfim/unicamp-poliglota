@@ -8,36 +8,92 @@
         <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
     </head>
     <body>
+        <nav id="menu-container">
+            <ul>
+                <li>Idiomas</li>
+                <li>Cursos</li>
+                <li>Comunidades</li>
+            </ul>
+        </nav>
+        <section id="content-header">
+            <h1 class="title">Comece a aprender idiomas agora</h1>
+            <p>Escolha um dos idiomas das listas abaixo para obter recursos incríveis para começar a estudar.</p>
+            <span class="footnote">*As listas são organizadas de acordo com cada árvore linguística a que o idioma pertence.</span>
+        </section>
         <div id="container">
             <section>
                 <div class="section-header">
-                    <h1 class="title">Idiomas</h1>
-                    <span class="label">filtros</span>
-                    <img width="16" height="16" src="images/filter.svg" alt="Filtros"/>
+                    <h1 class="title">Idiomas mais comuns</h1>
+                    <!--<span class="label">filtros</span>
+                    <img width="16" height="16" src="images/filter.svg" alt="Filtros"/>-->
                 </div>
-                <div class="flex-container">
-                    <div class="card">
+                <div class="size-adjusted-flex-container">
+                    <div class="card color1">
                         <h2>Inglês</h2>
-                        <p>Descrição foda</p>
+                        <img class="card-image" width="256" height="256" src="images/english.svg" alt="Filtros"/>
                     </div>
-                    <div class="card">
-                        <h2>Inglês</h2>
-                        <p>Descrição foda</p>
+                </div>
+                <div class="size-adjusted-flex-container">
+                    <div class="card color3">
+                        <h2>Espanhol</h2>
                     </div>
-                    <div class="card">
-                        <h2>Inglês</h2>
-                        <p>Descrição foda</p>
-                    </div>
-                    <div class="card">
-                        <h2>Inglês</h2>
-                        <p>Descrição foda</p>
-                    </div>
-                    <div class="card">
-                        <h2>Inglês</h2>
-                        <p>Descrição foda</p>
+                    <div class="card color2">
+                        <h2>Francês</h2>
                     </div>
                 </div>
             </section>
+            <!--
+            <section>
+                <div class="section-header">
+                    <h1 class="title">Idiomas Germânicos</h1>
+                    <span class="label">filtros</span>
+                    <img width="16" height="16" src="images/filter.svg" alt="Filtros"/>
+                </div>
+                <div class="flex-container germanic">
+                    <div class="card">
+                        <h2>Inglês</h2>
+                    </div>
+                    <div class="card">
+                        <h2>Alemão</h2>
+                    </div>
+                    <div class="card">
+                        <h2>Holândes</h2>
+                    </div>
+                    <div class="card">
+                        <h2>Sueco</h2>
+                    </div>
+                    <div class="card">
+                        <h2>Noruegues</h2>
+                    </div>
+                    <div class="card">
+                        <h2>Dinamarques</h2>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="section-header">
+                    <h1 class="title">Idiomas Latinos</h1>
+                </div>
+                <div class="flex-container latin">
+                    <div class="card">
+                        <h2>Espanhol</h2>
+                    </div>
+                    <div class="card">
+                        <h2>Francês</h2>
+                    </div>
+                    <div class="card">
+                        <h2>Italiano</h2>
+                    </div>
+                    <div class="card">
+                        <h2>Romeno</h2>
+                    </div>
+                </div>
+            </section>-->
+            <section>
+                <button class="button"> Sugira uma lingua</button>
+                vote numa lingua -> link pra poll
+            </section>
+            
         </div>
         <script src="js/app.js"></script>
     </body>
