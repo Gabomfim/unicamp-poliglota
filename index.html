@@ -8,13 +8,17 @@
         <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
     </head>
     <body>
-        <nav id="menu-container">
-            <ul>
-                <li>Idiomas</li>
-                <li>Cursos</li>
-                <li>Comunidades</li>
-            </ul>
-        </nav>
+        <div id="header">
+            <nav id="menu-container">
+                <ul>
+                    <li>Idiomas</li>
+                    <li>Cursos</li>
+                    <li>Comunidades</li>
+                </ul>
+                
+            </nav>
+            <span id="logo">Unicamp Poliglota</span>
+        </div>
         <section id="content-header">
             <h1 class="title">Comece a aprender idiomas agora</h1>
             <p>Escolha um dos idiomas das listas abaixo para obter recursos incríveis para começar a estudar.</p>
@@ -36,9 +40,11 @@
                 <div class="size-adjusted-flex-container">
                     <div class="card color3">
                         <h2>Espanhol</h2>
+                        <img class="card-image" width="256" height="256" src="images/spanish.svg" alt="Filtros"/>
                     </div>
                     <div class="card color2">
                         <h2>Francês</h2>
+                        <img class="card-image" width="256" height="256" src="images/french.svg" alt="Filtros"/>
                     </div>
                 </div>
             </section>
@@ -89,12 +95,13 @@
                     </div>
                 </div>
             </section>-->
-            <section>
-                <button class="button"> Sugira uma lingua</button>
-                vote numa lingua -> link pra poll
-            </section>
-            
         </div>
+        <footer id="footer">
+            <p>Desejamos incluir mais idiomas no site, mas para identificar quais abrimos uma votação</p>
+            <button class="button">Vote em um idioma</button>
+            <button class="button">Nossos Grupos</button>
+            <span>Criado por Gabriel Silveira - Em construção</span>
+        </footer>
         <script src="js/app.js"></script>
     </body>
 </html>

@@ -1,0 +1,81 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 30/04/2018 08:19
+  	*/
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+  font-family: Flaticon;
+        font-size: 20px;
+font-style: normal;
+margin-left: 20px;
+}
+
+.flaticon-001-brasilia:before { content: "\f100"; }
+.flaticon-002-temple-of-the-frescoes:before { content: "\f101"; }
+.flaticon-003-al-shaheed:before { content: "\f102"; }
+.flaticon-004-tower-bridge:before { content: "\f103"; }
+.flaticon-005-vaticano:before { content: "\f104"; }
+.flaticon-006-jerusalem:before { content: "\f105"; }
+.flaticon-007-belem-tower:before { content: "\f106"; }
+.flaticon-008-atomium:before { content: "\f107"; }
+.flaticon-009-kinderdijk-windmills:before { content: "\f108"; }
+.flaticon-010-petra:before { content: "\f109"; }
+.flaticon-011-capitol:before { content: "\f10a"; }
+.flaticon-012-louvre:before { content: "\f10b"; }
+.flaticon-013-samarra:before { content: "\f10c"; }
+.flaticon-014-kremlin:before { content: "\f10d"; }
+.flaticon-015-memorial-hall:before { content: "\f10e"; }
+.flaticon-016-mount-fuji:before { content: "\f10f"; }
+.flaticon-017-gateway-arch:before { content: "\f110"; }
+.flaticon-018-temple:before { content: "\f111"; }
+.flaticon-019-mole-antonelliana:before { content: "\f112"; }
+.flaticon-020-petronas:before { content: "\f113"; }
+.flaticon-021-gherkin:before { content: "\f114"; }
+.flaticon-022-national-monument:before { content: "\f115"; }
+.flaticon-023-moai:before { content: "\f116"; }
+.flaticon-024-milan:before { content: "\f117"; }
+.flaticon-025-gate-of-india:before { content: "\f118"; }
+.flaticon-026-washington:before { content: "\f119"; }
+.flaticon-027-golden-gate:before { content: "\f11a"; }
+.flaticon-028-stonehenge:before { content: "\f11b"; }
+.flaticon-029-burj-al-arab:before { content: "\f11c"; }
+.flaticon-030-eiffel-tower:before { content: "\f11d"; }
+.flaticon-031-taj-mahal:before { content: "\f11e"; }
+.flaticon-032-great-wall-of-china:before { content: "\f11f"; }
+.flaticon-033-colosseum:before { content: "\f120"; }
+.flaticon-034-giza:before { content: "\f121"; }
+.flaticon-035-parthenon:before { content: "\f122"; }
+.flaticon-036-statue-of-liberty:before { content: "\f123"; }
+.flaticon-037-sydney:before { content: "\f124"; }
+.flaticon-038-egyptian:before { content: "\f125"; }
+.flaticon-039-london-eye:before { content: "\f126"; }
+.flaticon-040-pisa:before { content: "\f127"; }
+.flaticon-041-forbidden-city:before { content: "\f128"; }
+.flaticon-042-buddha:before { content: "\f129"; }
+.flaticon-043-torii-gate:before { content: "\f12a"; }
+.flaticon-044-notre-dame:before { content: "\f12b"; }
+.flaticon-045-big-ben:before { content: "\f12c"; }
+.flaticon-046-chichen-itza:before { content: "\f12d"; }
+.flaticon-047-christ-the-redeemer:before { content: "\f12e"; }
+.flaticon-048-badshahi-mosque:before { content: "\f12f"; }
+.flaticon-049-space-needle:before { content: "\f130"; }
+.flaticon-050-arch:before { content: "\f131"; }
