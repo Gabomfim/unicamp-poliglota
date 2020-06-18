@@ -49,7 +49,7 @@ body {
 }
 
 #content-header {
-  background-image: linear-gradient(to bottom, rgba(32, 38, 57, 0.5), rgba(63, 76, 119, 0)), url(/images/hero-image4.jpg);
+  background-image: linear-gradient(to bottom, rgba(32, 38, 57, 0.5), rgba(63, 76, 119, 0)), url(../images/hero-image4.jpg);
   background-repeat: no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
